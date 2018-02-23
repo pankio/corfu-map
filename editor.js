@@ -7,8 +7,8 @@ var downloadLink;
 function init() {
   // Initialise the map.
   map = new google.maps.Map(document.getElementById('map-holder'), {
-    center: {lat: 1000, lng: 500},
-    zoom: 3,
+    center: {lat: 0, lng: 0},
+    zoom: 10,
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: false,
